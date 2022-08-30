@@ -88,4 +88,4 @@ wait_configuration
 echo "Setup the VPN connection with the following OpenVPN configuration."
 
 # try to connect to the server using the used defined configuration
-openvpn --config ${OPENVPN_CONFIG}
+openvpn --config ${OPENVPN_CONFIG} --local 192.168.68.13
